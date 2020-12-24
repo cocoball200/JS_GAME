@@ -1,0 +1,11 @@
+:root{
+    --color_picker:#fadf12;
+    --blur:0px;
+    --spacing:10px;
+}
+
+img{
+    background: var(--color_picker);
+    filter: blur(var(--blur));
+    padding: var(--spacing);
+}
